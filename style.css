@@ -429,6 +429,7 @@
 .clients-title {
     text-align: center;
     padding-top: 130px;
+    margin-bottom: 55px;
 }
 .clients-title h3 {
     font-size: 30px;
@@ -534,6 +535,10 @@
     color: #ffffff;
     background: transparent;
 }
+.newsletter input {
+    outline: none;
+    width: 70%;
+}
 .name {
     width: 308px;
     background-color: #ffffff;
@@ -619,7 +624,10 @@
     line-height: 24px;
     color: #ffffff;
 }
-
+button:hover,
+input[type=submit]:hover{
+    cursor: pointer;
+}
 
 
 
