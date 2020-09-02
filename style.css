@@ -104,7 +104,14 @@
     text-transform: uppercase;
     color: #ffffff;
     font-size: 14px;
+    width: 210px;
+    height: 45px;
 }
+.form p:last-child:hover {
+    background: red;
+    color: #ffffff;
+}
+
 .form p input {
     border: none;
     margin-left: 10px;
@@ -123,7 +130,7 @@
     height: 343px;
     background-image: url("img/laptop.png");
     position: absolute;
-    left: 29%;
+    left: calc(50% - 323px);
     top: -266px;
 }
 
@@ -629,6 +636,7 @@
 .soc {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     max-width: 150px;
     margin: 0 auto 50px;
     font-size: 18px;

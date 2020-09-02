@@ -39,9 +39,10 @@ const prevSlide = () => {
         activeSlide(index)
     }
 }
-
+const int = setInterval(nextSlide, 2500)
 points.forEach((item, indexPoint) => {
     item.addEventListener('click', () => {
+        clearInterval(int)
         index = indexPoint
         activePoint(index)
         activeSlide(index)
