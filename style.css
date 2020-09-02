@@ -233,7 +233,7 @@
 .about-left {
     width: 100%;
     height: auto;
-    background-image: url("img/about.png") ;
+    background: url("img/about.png") no-repeat ;
 }
 .about-right {
     display: flex;
