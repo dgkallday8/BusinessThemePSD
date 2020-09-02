@@ -108,8 +108,8 @@
     height: 45px;
 }
 .form p:last-child:hover {
-    background: red;
-    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
 }
 
 .form p input {
@@ -154,13 +154,13 @@
 .point {
     height: 20px;
     width: 20px;
-    background: #000000;
+    background: transparent;
     border-radius: 50%;
+    border: #dedfe0 solid 2px;
     margin: 0 10px;
-    opacity: .2;
 }
 .point.active {
-    opacity: .5;
+    border: #1ca8dd solid 2px;
 }
 .point:hover {
     cursor: pointer;
