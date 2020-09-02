@@ -627,6 +627,9 @@
 .footer-menu a {
     color: #394b50;
 }
+.footer-menu a:hover {
+    border-bottom: 1px solid #000000;
+}
 .number {
     text-align: center;
     font-size: 22px;
@@ -655,7 +658,9 @@
     font-weight: 400;
     color: #ffc155;
 }
-
+.soc>i:hover {
+    cursor: pointer;
+}
 
 .copyright {
     height: 45px;
