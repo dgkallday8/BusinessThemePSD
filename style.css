@@ -228,12 +228,15 @@
 .about {
     display: flex;
     justify-content: space-between;
-    height: 620px;
+
 }
 .about-left {
     width: 100%;
     height: auto;
-    background: url("img/about.png") no-repeat ;
+    background-image: url("img/about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 620px;
 }
 .about-right {
     display: flex;
