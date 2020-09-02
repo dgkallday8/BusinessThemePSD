@@ -477,6 +477,9 @@
     letter-spacing: -0.025em;
     color: #ffffff;
 }
+.clients-title>p {
+    color: #ffffff;
+}
 .clients-content {
     display: flex;
     margin-bottom: 60px;
